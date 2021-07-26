@@ -3,7 +3,10 @@ package test;
 import java.util.ArrayList;
 import java.util.List;
 
+<<<<<<< HEAD
+=======
 import metier.Boutique;
+>>>>>>> main
 import metier.Console;
 import metier.Jeu;
 
@@ -15,20 +18,26 @@ public class Test {
 		Console SuperNintendo = new Console("SuperNintendo");
 		Console XBoite = new Console("XBoite");
 		
+		List<Console> consoles=new ArrayList();
+		consoles.add(XBoite);
+		consoles.add(SuperNintendo);
 		
 		
-		Jeu MarioTurfu = new Jeu("MarioTurfu", SuperNintendo);
-		Jeu Pong3D = new Jeu("Pong3D", XBoite);
-		Jeu TurboRace = new Jeu("TurboRace", SuperNintendo);
-		Jeu Bagarre = new Jeu("Bagarre", SuperNintendo);
-		Jeu Karting = new Jeu("Karting", XBoite);
+		Jeu MarioTurfu = new Jeu("MarioTurfu", consoles);
+		Jeu Pong3D = new Jeu("Pong3D", consoles);
+		Jeu TurboRace = new Jeu("TurboRace", consoles);
+		Jeu Bagarre = new Jeu("Bagarre", consoles);
+		Jeu Karting = new Jeu("Karting", consoles);
 		
+<<<<<<< HEAD
+=======
 		List listejeuxmag = new ArrayList();
 		listejeuxmag.add(MarioTurfu);
 		listejeuxmag.add(Pong3D);
 		
 		Boutique magasin = new Boutique("Boutique de jeux", "avenue féérique", listejeuxmag);
 
+>>>>>>> main
 	}
 
 }
