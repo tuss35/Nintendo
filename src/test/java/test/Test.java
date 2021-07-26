@@ -3,7 +3,11 @@ package test;
 import java.util.ArrayList;
 import java.util.List;
 
+<<<<<<< Updated upstream
 import metier.Boutique;
+=======
+import metier.Client;
+>>>>>>> Stashed changes
 import metier.Console;
 import metier.Jeu;
 
@@ -23,12 +27,26 @@ public class Test {
 		Jeu Bagarre = new Jeu("Bagarre", SuperNintendo);
 		Jeu Karting = new Jeu("Karting", XBoite);
 		
+<<<<<<< Updated upstream
 		List listejeuxmag = new ArrayList();
 		listejeuxmag.add(MarioTurfu);
 		listejeuxmag.add(Pong3D);
 		
 		Boutique magasin = new Boutique("Boutique de jeux", "avenue féérique", listejeuxmag);
 
+=======
+		
+		
+		List<Jeu> maListe = new ArrayList ();
+		maListe.add(Karting);
+		maListe.add(TurboRace);
+		maListe.add(Bagarre);
+	
+	
+	Client c = new Client ("Cengiz","Nil",maListe);	
+		
+	
+>>>>>>> Stashed changes
 	}
 
 }
