@@ -3,21 +3,20 @@ package test;
 import java.util.ArrayList;
 import java.util.List;
 
-
 import metier.Boutique;
-
 import metier.Client;
-
 import metier.Console;
 import metier.Jeu;
+import metier.Portable;
+import metier.Salon;
 
 public class Test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Console SuperNintendo = new Console("SuperNintendo");
-		Console XBoite = new Console("XBoite");
+		Console SuperNintendo = new Portable ("SuperNintendo");
+		Console XBoite = new Salon ("XBoite");
 		
 		List<Console> consoles=new ArrayList();
 		consoles.add(XBoite);
