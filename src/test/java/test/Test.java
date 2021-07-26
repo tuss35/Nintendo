@@ -13,7 +13,6 @@ import metier.Salon;
 public class Test {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		Console SuperNintendo = new Portable ("SuperNintendo");
 		Console XBoite = new Salon ("XBoite");
@@ -28,7 +27,7 @@ public class Test {
 		Jeu TurboRace = new Jeu("TurboRace", consoles);
 		Jeu Bagarre = new Jeu("Bagarre", consoles);
 		Jeu Karting = new Jeu("Karting", consoles);
-		
+
 
 		List listejeuxmag = new ArrayList();
 		listejeuxmag.add(MarioTurfu);
@@ -42,8 +41,7 @@ public class Test {
 		maListe.add(Bagarre);
 	
 	
-	Client c = new Client ("Cengiz","Nil",maListe);	
-		
+		Client c = new Client ("Cengiz","Nil",maListe);	
 	}
 
 }
