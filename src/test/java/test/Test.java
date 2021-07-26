@@ -3,6 +3,10 @@ package test;
 import java.util.ArrayList;
 import java.util.List;
 
+<<<<<<< HEAD
+=======
+import metier.Boutique;
+>>>>>>> main
 import metier.Console;
 import metier.Jeu;
 
@@ -25,6 +29,15 @@ public class Test {
 		Jeu Bagarre = new Jeu("Bagarre", consoles);
 		Jeu Karting = new Jeu("Karting", consoles);
 		
+<<<<<<< HEAD
+=======
+		List listejeuxmag = new ArrayList();
+		listejeuxmag.add(MarioTurfu);
+		listejeuxmag.add(Pong3D);
+		
+		Boutique magasin = new Boutique("Boutique de jeux", "avenue féérique", listejeuxmag);
+
+>>>>>>> main
 	}
 
 }
