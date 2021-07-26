@@ -14,8 +14,8 @@ public class Test {
 
 	public static void main(String[] args) {
 		
-		Console SuperNintendo = new Portable ("SuperNintendo");
-		Console XBoite = new Salon ("XBoite");
+		Console SuperNintendo = new Portable ("SuperNintendo", 50, "24/05/2021");
+		Console XBoite = new Salon ("XBoite", 100, "25/05/2021");
 		
 		List<Console> consoles=new ArrayList();
 		consoles.add(XBoite);

@@ -6,11 +6,11 @@ public abstract class Console {
 
 	private String nom;
 	private int prix;
-	private LocalDate dateSortie;
+	private String dateSortie;
 
 	
 
-	public Console(String nom, int prix, LocalDate dateSortie) {
+	public Console(String nom, int prix, String dateSortie) {
 		this.nom = nom;
 		this.prix = prix;
 		this.dateSortie = dateSortie;
