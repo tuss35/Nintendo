@@ -3,11 +3,15 @@ package test;
 import java.util.ArrayList;
 import java.util.List;
 
+<<<<<<< Updated upstream
 
 import metier.Boutique;
 
 import metier.Client;
 
+=======
+import metier.Boutique;
+>>>>>>> Stashed changes
 import metier.Console;
 import metier.Jeu;
 
@@ -29,7 +33,10 @@ public class Test {
 		Jeu TurboRace = new Jeu("TurboRace", consoles);
 		Jeu Bagarre = new Jeu("Bagarre", consoles);
 		Jeu Karting = new Jeu("Karting", consoles);
+<<<<<<< Updated upstream
 		
+=======
+>>>>>>> Stashed changes
 
 		List listejeuxmag = new ArrayList();
 		listejeuxmag.add(MarioTurfu);
@@ -37,6 +44,7 @@ public class Test {
 		
 		Boutique magasin = new Boutique("Boutique de jeux", "avenue f��rique", listejeuxmag);
 
+<<<<<<< Updated upstream
 		List<Jeu> maListe = new ArrayList ();
 		maListe.add(Karting);
 		maListe.add(TurboRace);
@@ -45,6 +53,8 @@ public class Test {
 	
 	Client c = new Client ("Cengiz","Nil",maListe);	
 		
+=======
+>>>>>>> Stashed changes
 	}
 
 }
