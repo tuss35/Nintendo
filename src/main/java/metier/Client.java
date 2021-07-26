@@ -6,12 +6,12 @@ public class Client {
 
 	private String nom;
 	private String prenom;
-	private List<Jeu> listeJeu;
+	private List<Achat> listeAchat;
 	
-	public Client(String nom, String prenom, List<Jeu> listeJeu) {
+	public Client(String nom, String prenom, List<Achat> listeAchat) {
 		this.nom = nom;
 		this.prenom = prenom;
-		this.listeJeu = listeJeu;
+		this.listeAchat = listeAchat;
 	}
 	
 	public String getNom() {
@@ -26,22 +26,17 @@ public class Client {
 	public void setPrenom(String prenom) {
 		this.prenom = prenom;
 	}
-	public List<Jeu> getListeJeu() {
-		return listeJeu;
-	}
-	public void setListeJeu(List<Jeu> listeJeu) {
-		this.listeJeu = listeJeu;
+
+	public List<Achat> getListeAchat() {
+		return listeAchat;
 	}
 
-	@Override
+	public void setListeAchat(List<Achat> listeAchat) {
+		this.listeAchat = listeAchat;
+	}
+
+
 	public String toString() {
-		return "Client [nom=" + nom + ", prenom=" + prenom + ", listeJeu=" + listeJeu + "]";
+		return "Client [nom=" + nom + ", prenom=" + prenom + ", listeAchat=" + listeAchat + "]";
 	}
-	
-	
-
-	
-	
-	
-
 }
